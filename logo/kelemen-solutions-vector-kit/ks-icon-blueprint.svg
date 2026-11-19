@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Kelemen Solutions — blueprint app icon">
+<title>Kelemen Solutions — blueprint app icon</title><desc>Dark square icon with light drafting grid and teal outline.</desc>
+<rect width="512" height="512" rx="84" fill="#0B1116"/><defs>
+    <pattern id="tiny" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#14B8A6" stroke-width="0.75" opacity="0.16"/></pattern>
+    <pattern id="large" width="120" height="120" patternUnits="userSpaceOnUse"><rect width="120" height="120" fill="url(#tiny)"/><path d="M120 0H0V120" fill="none" stroke="#14B8A6" stroke-width="1" opacity="0.304"/></pattern>
+    </defs><rect width="512" height="512" fill="url(#large)"/><circle cx="256" cy="256" r="180" fill="none" stroke="#2CBFB5" stroke-opacity=".25" stroke-width="1.6" stroke-dasharray="10 12"/><path d="M256 48V464 M48 256H464" stroke="#4BC7BF" stroke-opacity=".15" stroke-width="1"/><rect x="14" y="14" width="484" height="484" rx="74" stroke="#14B8A6" stroke-width="4" fill="none"/><g transform="translate(53 143) scale(0.54716981)"><path d="M0 0 H98 V178 L0 274 Z" fill="#F8FAFC"/><path d="M0 316 L308 0 H437 L0 452 Z" fill="#F8FAFC"/><path d="M187 307 L253 243 L490 486 H358 Z" fill="#F8FAFC"/><path d="M347 169 L430 90 H694 L623 169 Z" fill="#14B8A6"/><path d="M320 207 H404 V216 C404 234 416 245 442 245 H626 C700 245 742 282 742 353 C742 423 697 486 633 486 H535 L456 406 H621 C670 406 668 324 617 324 H426 C362 324 320 289 320 231 Z" fill="#14B8A6"/></g>
+</svg>

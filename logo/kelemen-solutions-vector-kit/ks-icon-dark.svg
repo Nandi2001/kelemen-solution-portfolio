@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Kelemen Solutions — dark app icon">
+<title>Kelemen Solutions — dark app icon</title><desc>Dark square icon with teal outline, compact KS monogram.</desc>
+<rect width="512" height="512" rx="84" fill="#0B1116"/><rect x="14" y="14" width="484" height="484" rx="74" stroke="#14B8A6" stroke-width="4" fill="none"/><g transform="translate(53 143) scale(0.54716981)"><path d="M0 0 H98 V178 L0 274 Z" fill="#F8FAFC"/><path d="M0 316 L308 0 H437 L0 452 Z" fill="#F8FAFC"/><path d="M187 307 L253 243 L490 486 H358 Z" fill="#F8FAFC"/><path d="M347 169 L430 90 H694 L623 169 Z" fill="#14B8A6"/><path d="M320 207 H404 V216 C404 234 416 245 442 245 H626 C700 245 742 282 742 353 C742 423 697 486 633 486 H535 L456 406 H621 C670 406 668 324 617 324 H426 C362 324 320 289 320 231 Z" fill="#14B8A6"/></g>
+</svg>

@@ -1,0 +1,10 @@
+# Original media stays local; the website uses optimized copies in assets/.
+resources/**/*.png
+resources/**/*.jpg
+resources/**/*.jpeg
+resources/**/*.mp4
+resources/**/*.lnk
+
+# Superseded Flow + Chart export (not used by the website).
+assets/vortex-chart.mp4
+assets/vortex-chart-poster.webp
