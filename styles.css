@@ -109,7 +109,7 @@
 .scrolling-home.is-scrolled .home-header .header-inner{height:86px}
 .scrolling-home.is-scrolled .home-blueprint-logo{display:none}
 .scrolling-home.is-scrolled .compact-home-brand{display:block}
-.compact-home-brand img{width:270px;height:auto}
+.compact-home-brand :is(img,svg){width:270px;height:auto}
 .home-featured{padding:55px 0 52px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .featured-heading{display:flex;justify-content:space-between;gap:25px;align-items:baseline;margin-bottom:30px}
 .featured-heading h2{font-size:clamp(36px,4.5vw,56px);letter-spacing:-2px;margin:0}
@@ -140,8 +140,8 @@
 .placeholder-variant-2 svg,.placeholder-variant-5 svg{transform:rotate(-15deg)}
 .placeholder-card .gallery-card-copy h2{color:var(--muted);font-size:22px}
 .placeholder-card .gallery-card-copy .gallery-category{color:#82948f}
-@media(max-width:950px){.team-portrait-visual{height:390px}.compact-home-brand img{width:240px}.scrolling-home.is-scrolled .header-inner nav{gap:20px}}
-@media(max-width:640px){.scroll-section{scroll-margin-top:0}.scrolling-home.is-scrolled .home-header .header-inner{height:70px;flex-direction:row;padding:0;gap:14px}.scrolling-home.is-scrolled .compact-home-brand img{width:44px;height:34px;object-fit:contain}.scrolling-home.is-scrolled .header-inner nav{gap:14px;font-size:13px}.home-featured{padding:38px 0}.featured-heading{display:block;margin-bottom:25px}.featured-heading h2{font-size:39px}.featured-heading p{margin-top:10px}.home-featured .work-gallery{padding-bottom:22px}.home-team .team-hero{padding-top:38px}.team-portrait-visual{height:335px}.team-portrait .portrait-caption{font-size:14px;padding:11px 10px}.scrolling-home .contact-intro h2{font-size:70px}.home-team .team-intro h2{font-size:49px}}
+@media(max-width:950px){.team-portrait-visual{height:390px}.compact-home-brand :is(img,svg){width:240px}.scrolling-home.is-scrolled .header-inner nav{gap:20px}}
+@media(max-width:640px){.scroll-section{scroll-margin-top:0}.scrolling-home.is-scrolled .home-header .header-inner{height:70px;flex-direction:row;padding:0;gap:14px}.scrolling-home.is-scrolled .compact-home-brand :is(img,svg){width:44px;height:34px;object-fit:contain}.scrolling-home.is-scrolled .header-inner nav{gap:14px;font-size:13px}.home-featured{padding:38px 0}.featured-heading{display:block;margin-bottom:25px}.featured-heading h2{font-size:39px}.featured-heading p{margin-top:10px}.home-featured .work-gallery{padding-bottom:22px}.home-team .team-hero{padding-top:38px}.team-portrait-visual{height:335px}.team-portrait .portrait-caption{font-size:14px;padding:11px 10px}.scrolling-home .contact-intro h2{font-size:70px}.home-team .team-intro h2{font-size:49px}}
 
 .home-banner-brand .compact-home-brand{display:none}
 .scrolling-home.is-scrolled .home-banner-brand .compact-home-brand{display:block}
@@ -236,3 +236,8 @@ a.gallery-card:focus-visible{outline:2px solid var(--teal);outline-offset:5px}
 .contact-whatsapp svg{width:17px;height:17px;flex-shrink:0}
 .footer-contact-item .footer-whatsapp{color:var(--teal);font-size:13px;margin-left:3px}
 @media(max-width:640px){.contact-channel .contact-whatsapp{font-size:13px;gap:6px}.footer-contact-item .footer-whatsapp{font-size:12px}}
+
+/* Inline vectors avoid a separate logo image request on every page. */
+.brand .brand-wide{display:block}
+.brand .brand-small{display:none}
+@media(max-width:640px){.brand .brand-wide{display:none}.brand .brand-small{display:block}}

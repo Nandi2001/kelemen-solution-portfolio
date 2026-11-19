@@ -54,3 +54,5 @@ Removed the redundant email CTA: the email value itself opens mail. The phone ro
 ## Image delivery
 
 Transparent portraits are delivered as WebP at 480, 768 and 1024 pixel widths with responsive srcset/sizes. The original PNGs remain as local/source assets and are no longer requested by the pages. Team photographs use 480/800-pixel WebP variants. Below-fold photos stay lazy-loaded, and image decoding is asynchronous. CSS and JavaScript URLs include content hashes to bypass stale CDN/browser copies after this update.
+
+Header branding is embedded directly as inline SVG (blueprint banner, horizontal wordmark and mobile monogram), preserving the original vector artwork and removing separate logo-image requests. The favicon remains a small standalone SVG.
