@@ -50,3 +50,7 @@ Removed the earlier local brief-download form and its JavaScript handler. The co
 Contact email and phone are prominent copyable rows, with compact copy controls in the footers. Copy actions provide visible and screen-reader feedback. Main Home sections use subtle full-width charcoal bands; subsection hierarchy uses spacing and typography rather than matching divider rules.
 
 Removed the redundant email CTA: the email value itself opens mail. The phone row and footers include a WhatsApp link to the supplied phone number. No messages are sent by the site.
+
+## Image delivery
+
+Transparent portraits are delivered as WebP at 480, 768 and 1024 pixel widths with responsive srcset/sizes. The original PNGs remain as local/source assets and are no longer requested by the pages. Team photographs use 480/800-pixel WebP variants. Below-fold photos stay lazy-loaded, and image decoding is asynchronous. CSS and JavaScript URLs include content hashes to bypass stale CDN/browser copies after this update.
