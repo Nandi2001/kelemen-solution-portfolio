@@ -8,3 +8,6 @@ resources/**/*.lnk
 # Superseded Flow + Chart export (not used by the website).
 assets/vortex-chart.mp4
 assets/vortex-chart-poster.webp
+
+# Keep the private thesis source out of the published portfolio.
+/resources/4-FSW/Two-Sided-With Anexes.pdf
