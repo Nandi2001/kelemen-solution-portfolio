@@ -1,0 +1,2 @@
+# Retire the removed master's thesis URL before static assets are served.
+/resources/4-FSW/Two-Sided-With* /work 301
