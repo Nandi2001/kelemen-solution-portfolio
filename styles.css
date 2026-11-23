@@ -264,3 +264,6 @@ a.gallery-card:focus-visible{outline:2px solid var(--teal);outline-offset:5px}
 .gallery-thumb.masking-render-thumb img{width:100%;height:100%;object-fit:cover;object-position:center}
 
 .masking-render-link,.masking-drawing-link{cursor:zoom-in}
+
+/* Allow the current contact email to wrap cleanly on narrow screens. */
+.contact-channel .contact-email{overflow-wrap:anywhere}
